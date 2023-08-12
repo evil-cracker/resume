@@ -1,14 +1,4 @@
-/**
-* Template Name: iPortfolio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -159,12 +149,14 @@ h6 {
 /* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
+  color: #3F2E3E;
 }
 
 .nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
+ 
 }
 
 .nav-menu>ul>li {
@@ -176,7 +168,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #3F2E3E;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -187,7 +179,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #4477CE;
 }
 
 .nav-menu a:hover,
@@ -195,7 +187,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  color: #4477CE;
 }
 
 .nav-menu a:hover i,
@@ -215,7 +207,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: lightgray;
   color: #fff;
   width: 40px;
   height: 40px;
